@@ -1,0 +1,81 @@
+@media (max-width: 575.98px){
+    #topo{
+        height: 300px;
+        background-position: center;
+    }
+
+    #topo h1{
+        width: 290px;
+        font-size: 26px;
+        line-height: normal;
+    }
+
+    #topo p{
+        width: 220px;
+        font-size: 16px;
+    }
+
+    #topo .caixa-conteudo{
+        padding: 50px 0 0 30px;
+    }
+
+    #sobre{
+        height: 950px;
+    }
+
+    #sobre h1{
+        font-size: 2.8em;
+    }
+
+    #servicos{
+        height: 1300px;
+    }
+
+    #servicos h1{
+        font-size: 2.5em;
+    }
+
+    #servicos .col-md-5 p{
+        padding-top: 20px;
+        padding-bottom: 15px;
+        font-size: 16px;
+    }
+
+    #time{
+        height: 1125px;
+    }
+
+    #time h1{
+        font-size: 2.5em;
+    }
+
+    #form h1{
+        line-height: normal;
+        font-size: 1.7em;
+    }
+
+    #form p{
+        font-size: 14px;
+    }
+
+    #form .row{
+        padding-top: 80px;
+    }
+
+    #form .row #formularios {
+        padding-left: 30px;
+    }
+
+    #form #checagem {
+        line-height: 1px;
+        font-size: 12px;
+    }
+
+    #links{
+        height: 1150px;
+    }
+
+    #links p{
+        padding-top: 40px;
+    }
+}

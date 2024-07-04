@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Gerais
+--------------*/
+h1{
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4{
+    color: #BF5E3B;
+    text-transform: uppercase;
+
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+/*Nav
+-------------*/
+nav{
+    background-color: #133A3F;
+    border-bottom: 1px solid #BF5E3B;
+}
+
+nav li a.nav-link{
+    color: #F1D4AF;
+    text-transform: uppercase;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav button.btn{
+    color: #F1D4AF;
+    text-transform: uppercase;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+    height: 50px;
+    width: 150px;
+
+    background-color: #BF5E3B;
+    border-radius: 0px;
+}
+
+nav button.btn:hover{
+    background-color: #d4724f;
+}
+
+/*Topo
+-------------*/
+#topo{
+    height: 610px;
+
+    background-image: url(../img/Fundo-topo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#topo .caixa-conteudo{
+    padding-top: 130px;
+    padding-left: 80px;
+}
+
+#topo h1{
+    width: 600px;
+    color: #F1D4AF;
+
+    line-height: 70px;
+}
+
+#topo p{
+    width: 600px;
+    color: #F1D4AF;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+#topo button.btn{
+    color: #F1D4AF;
+    text-transform: uppercase;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+    height: 70px;
+    width: 300px;
+
+    background-color: #BF5E3B;
+    border-radius: 0px;
+}
+
+#topo button.btn:hover{
+    background-color: #d4724f;
+}
+
+#topo #tel_contato{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+/*Sobre
+-------------*/
+#sobre{
+    height: 700px;
+    padding-top: 150px;
+    background-color: #FFF7EC;
+}
+
+#sobre h1{
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+#sobre p{
+    color: #BF5E3B;
+    font-weight: 500;
+
+    padding: 20px 0;
+}
+
+#sobre button.btn{
+    color: #F1D4AF;
+    text-transform: uppercase;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+    height: 70px;
+    width: 300px;
+
+    background-color: #BF5E3B;
+    border-radius: 0px;
+}
+
+#sobre button.btn:hover{
+    background-color: #d4724f;
+}
+
+/*Serviços
+-------------*/
+#servicos{
+    height: 1000px;
+    padding-top: 150px;
+    background-color: #FFF7EC;
+}
+
+#servicos h1{
+    font-weight: bold;
+}
+
+#servicos .col-md-5 p{
+    color: #BF5E3B;
+
+    margin-bottom: 0;
+    padding-top: 60px;
+
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#servicos .d-flex img{
+    margin-top: 5px
+}
+
+#servicos .d-flex p{
+    color: black;
+
+    margin-bottom: 0;
+    padding-top: 10px;
+
+    width: 175px;
+
+    line-height: 35px;
+
+    text-align: center;
+    text-shadow: 0px 2px 3px #00000060;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.caixa_servicos{
+    background-color: white;
+    box-shadow: 0px 3px 5px #00000060;
+    height: 175px;
+}
+
+/*Time
+--------------*/
+#time{
+    height: 800px;
+    padding-top: 170px;
+    background-color: #FFF7EC;
+}
+
+#time h1{
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+#time p{
+    color: #BF5E3B;
+    font-weight: 500;
+
+    padding: 20px 0;
+}
+
+#time button.btn{
+    color: #F1D4AF;
+    text-transform: uppercase;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+    height: 70px;
+    width: 300px;
+
+    background-color: #BF5E3B;
+    border-radius: 0px;
+}
+
+#time button.btn:hover{
+    background-color: #d4724f;
+}
+
+#time img{
+    box-shadow: 0px 2px 3px black;
+}
+
+/*Form
+--------------*/
+#form{
+    height: 550px;
+    background-image: url(../img/Fundo-setion.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form .row{
+    padding-top: 100px;
+}
+
+#form .row #formularios{
+    padding-left: 100px;
+}
+
+#form .container{
+    padding-top: 0px;
+}
+
+#form h4{
+    color: #F1D4AF;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+#form h1{
+    color: #F1D4AF;
+    line-height: 50px;
+    font-size: 3em;
+    font-weight: bold;
+
+    padding: 18px 0;
+}
+
+#form p{
+    color: white;
+    line-height: 25px;
+    font-size: 20px;
+
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#form input.form-control{
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #efc48b;
+ }
+
+ #form #checagem{
+    color: white;
+    font-size: 15px;
+ }
+
+ #form #checagem{
+    font-size: 15px;
+ }
+
+ #form #checagem span{
+    text-decoration: underline; 
+    cursor: pointer;
+ }
+
+ #form #checagem_radio{
+    margin-right: 5px;
+    width: 15px; 
+    height: 15px;
+ }
+
+ #form button.form-control{
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    height: 45px;
+    border-radius: 0;
+    border: 0px;
+    background-color: #0c292c;
+ }
+
+/*Links
+--------------*/
+#links{
+    height: 350px;
+    background-color: #FFF7EC;
+    border-bottom: 1px solid #d4724f54;
+}
+
+#links .row{
+    padding-top: 70px;
+}
+
+#links p{
+    color: #d4724f;
+    font-weight: bold;
+
+    margin: 0;
+}
+
+#links ul li{
+    cursor: pointer;
+    color: #d4724f;
+    margin: 10px 0;
+}
+
+/*Rodape
+--------------*/
+footer{
+    background-color: #FFF7EC;
+    height: 100px;
+}
+
+footer p{
+    color: #d4724f;
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    color: black;
+    text-decoration: underline;
+}
