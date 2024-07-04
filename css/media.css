@@ -55,11 +55,12 @@
     }
 
     #form p{
-        font-size: 14px;
+        line-height: normal;
+        font-size: 13px;
     }
 
     #form .row{
-        padding-top: 80px;
+        padding-top: 60px;
     }
 
     #form .row #formularios {
