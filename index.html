@@ -30,10 +30,10 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
-<body>
+<body onload="entradaSite()" onscroll="aparecerSections()">
     
     <header> <!--Nav-->
-        <nav class="navbar navbar-expand-md">
+        <nav id="nav" class="navbar navbar-expand-md fixed-top">
             <div class="container">
                 <img class="navbar-brand img-fluid" src="img/Logo.png" alt="">
 
@@ -42,13 +42,13 @@
                         <a href="#" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item mr-3 ml-3">
-                        <a href="#" class="nav-link">Sobre Nós</a>
+                        <a href="#sobre" class="nav-link">Sobre Nós</a>
                     </li>
                     <li class="nav-item mr-3 ml-3">
-                        <a href="#" class="nav-link">Serviços</a>
+                        <a href="#servicos" class="nav-link">Serviços</a>
                     </li>
                     <li class="nav-item mr-3 ml-3">
-                        <a href="#" class="nav-link">Nosso Time</a>
+                        <a href="#time" class="nav-link">Nosso Time</a>
                     </li>
                 </ul>
                 <button class="d-none d-lg-block btn" type="button">Contato</button>
@@ -57,9 +57,9 @@
     </header>
 
     <section id="topo"> <!--Topo-->
-        <div class="caixa-conteudo">
-            <h1>Os Melhores Advogados Do País Agora A Seu Alcance.</h1>
-            <p>Preencha agora seu cadastro e agende sua consultoria gratuita, ou ligue.</p>
+        <div id="caixa_topo" class="caixa-conteudo invis-topo">
+            <h1>Os Melhores <br> Advogados Do País <br> Agora A Seu Alcance.</h1>
+            <p>Preencha agora seu cadastro e agende sua consultoria gratuita, ou <br> ligue.</p>
 
             <div class="d-flex flex-row align-items-center">
                 <div>
@@ -95,7 +95,7 @@
         </div>
     </section>
 
-    <section id="servicos"> <!--Serviços-->
+    <section id="servicos" class="invis-section"> <!--Serviços-->
         <div class="container">
             
             <div class="row pb-5">
@@ -152,7 +152,7 @@
         </div>
     </section>
 
-    <section id="time" class="pb-5"> <!--Time-->
+    <section id="time" class="pb-5 invis-section"> <!--Time-->
         <div class="container">
             <div class="row d-flex flex-column flex-md-row flex-md-row">
                 <div class="col-md-7">
@@ -263,6 +263,8 @@
             <p>Copyright &copy; Todos os direitos reservados | Feito pelo <a href="https://www.instagram.com/devluizsilva" target="_blank">Desenvolvedor Luiz Silva</a></p>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
