@@ -17,12 +17,12 @@ function aparecerSections(){
     rolagem = scrollY
     console.log(rolagem)
 
-    if(rolagem >= 900){
+    if(rolagem >= 650){
         serv.classList.remove('invis-section')
         serv.classList.add('visi-section')
     }
 
-    if(rolagem >= 2000){
+    if(rolagem >= 1900){
         time.classList.remove('invis-section')
         time.classList.add('visi-section')
     }
