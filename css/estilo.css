@@ -11,6 +11,15 @@ body{
     background-color: #FFF7EC;
 }
 
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: #ff6022;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #133A3F;
+}
+
 /*Gerais
 --------------*/
 h1{
@@ -115,6 +124,7 @@ nav button.btn:hover{
 
 #topo button.btn:hover{
     background-color: #d4724f;
+    box-shadow: -4px 4px rgba(212, 114, 79, 0.4), -8px 8px rgba(212, 114, 79, 0.3), -12px 12px rgba(212, 114, 79, 0.2);
 }
 
 #topo #tel_contato{
@@ -351,6 +361,10 @@ nav button.btn:hover{
     border: 0px;
     background-color: #0c292c;
  }
+
+#form button.form-control:hover{
+    box-shadow: 4px 4px rgba(12, 41, 44, 0.4), 8px 8px rgba(12, 41, 44, 0.3), 12px 12px rgba(12, 41, 44, 0.2);
+}
 
 /*Links
 --------------*/
