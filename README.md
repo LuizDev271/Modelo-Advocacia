@@ -18,3 +18,5 @@ Projeto individual, Modelo de Site Responsivo de Advocacia, criado a base de HTM
 
 <br>
 Link https://luizdev271.github.io/Modelo-Advocacia/
+<br>
+Inspiração: https://www.behance.net/gallery/164980013/Modelo-de-site-advogado?tracking_source=search_projects_recommended|site+advogado&l=63
