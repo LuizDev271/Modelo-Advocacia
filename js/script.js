@@ -15,7 +15,6 @@ function entradaSite(){
 function aparecerSections(){
     
     rolagem = scrollY
-    console.log(rolagem)
 
     if(rolagem >= 650){
         serv.classList.remove('invis-section')
